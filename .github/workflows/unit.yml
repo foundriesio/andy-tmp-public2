@@ -1,0 +1,19 @@
+name: Check Format
+
+on:
+  pull_request:
+
+jobs:
+  black:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Say something
+        run: |
+          echo "ANDY does this work on a PR?"
+          uname -va
+          hostname
+          ls /home/doanac/code
