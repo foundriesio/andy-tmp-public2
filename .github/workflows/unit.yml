@@ -16,4 +16,4 @@ jobs:
           echo "ANDY does this work on a PR?"
           uname -va
           hostname
-          ls /var
+          ls /home/doanac/code
