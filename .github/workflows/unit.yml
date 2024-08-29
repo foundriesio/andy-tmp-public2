@@ -14,3 +14,6 @@ jobs:
       - name: Say something
         run: |
           echo "ANDY does this work on a PR?"
+          uname -va
+          hostname
+          ls /var
