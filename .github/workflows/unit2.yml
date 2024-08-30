@@ -4,7 +4,7 @@ on:
   pull_request:
 
 jobs:
-  black:
+  white:
     runs-on: [self-hosted, x86]
     steps:
       - uses: actions/checkout@v4
@@ -16,4 +16,4 @@ jobs:
           echo "ANDY does this work on a PR?"
           uname -va
           hostname
-          ls /home/doanac/code
+          ls /home/
